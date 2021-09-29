@@ -7,6 +7,10 @@ h1 {
     font-weight: 700;
 }
 
+hr {
+    height: 3px;
+    background-color: rgb(19, 211, 236);
+}
 
 .icono img {
     width: 2rem;
