@@ -7,6 +7,10 @@ h1 {
     font-weight: 700;
 }
 
+p {
+    font-weight: 400;
+}
+
 hr {
     height: 3px;
     background-color: rgb(19, 211, 236);
@@ -18,4 +22,8 @@ hr {
 
 .card {
     height: 500px;
+}
+
+.card img {
+    height: 130px;
 }

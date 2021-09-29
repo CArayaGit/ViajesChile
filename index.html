@@ -78,36 +78,104 @@
             <h1 id="Somos" class="text-light text-center fw-bold mt-5">¿Quienes somos?</h1>
             <hr class="mb-4">
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="bg-info text-center">
-                        <i class="fas fa-plane bg-info my-2 px-5 fa-1x text-light"></i>
+            <div class="container text-light">
+                <div class="row">
+                    <div class="col-md-4 my-2">
+                        <div class="bg-info text-center mb-3" data-bs-toggle="modal" data-bs-target="#avion">
+                            <i class="fas fa-plane bg-info my-2 px-5 fa-1x text-light" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Viajes"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur illum esse officia quam reiciendis provident obcaecati. Ad voluptates alias soluta temporibus delectus a laudantium voluptate, dignissimos illum sit autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora, dolores sapiente, quis rem praesentium distinctio animi nulla similique velit excepturi quos. Quibusdam doloremque ipsum provident, dolore architecto nobis quidem!</p>
+    
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur illum esse officia quam reiciendis provident obcaecati. Ad voluptates alias soluta temporibus delectus a laudantium voluptate, dignissimos illum sit autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora, dolores sapiente, quis rem praesentium distinctio animi nulla similique velit excepturi quos. Quibusdam doloremque ipsum provident, dolore architecto nobis quidem!</p>
-
-                </div>
-                <div class="col-md-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur illum esse officia quam reiciendis provident obcaecati. Ad voluptates alias soluta temporibus delectus a laudantium voluptate, dignissimos illum sit autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora, dolores sapiente, quis rem praesentium distinctio animi nulla similique velit excepturi quos. Quibusdam doloremque ipsum provident, dolore architecto nobis quidem!</p>
-                    <div class="bg-info text-center">
-                        <i class="fas fa-mountain my-2 px-5 fa-1x text-light"></i>
+                    <div class="col-md-4 my-2">
+                        <div class="bg-info text-center mb-3 d-md-none" data-bs-toggle="modal" data-bs-target="#cerro">
+                            <i class="fas fa-mountain my-2 px-5 fa-1x text-light" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Montañismo"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur illum esse officia quam reiciendis provident obcaecati. Ad voluptates alias soluta temporibus delectus a laudantium voluptate, dignissimos illum sit autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora, dolores sapiente, quis rem praesentium distinctio animi nulla similique velit excepturi quos. Quibusdam doloremque ipsum provident, dolore architecto nobis quidem!</p>
+                        <div class="bg-info text-center d-none d-md-block" data-bs-toggle="modal" data-bs-target="#cerro">
+                            <i class="fas fa-mountain my-2 px-5 fa-1x text-light" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="top" data-bs-content="Montañismo"></i>
+                        </div>
+                        
                     </div>
-                    
-
-                </div>
-                <div class="col-md-4">
-                    <div class="bg-info text-center">
-                        <i class="fas fa-map-marked-alt bg-info py-2 px-5 fa-1x text-light"></i>
+                    <div class="col-md-4 my-2">
+                        <div class="bg-info text-center mb-3" data-bs-toggle="modal" data-bs-target="#donde">
+                            <i class="fas fa-map-marked-alt bg-info py-2 px-5 fa-1x text-light" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Donde estamos"></i>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur illum esse officia quam reiciendis provident obcaecati. Ad voluptates alias soluta temporibus delectus a laudantium voluptate, dignissimos illum sit autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora, dolores sapiente, quis rem praesentium distinctio animi nulla similique velit excepturi quos. Quibusdam doloremque ipsum provident, dolore architecto nobis quidem!</p>
+    
                     </div>
-                    
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis pariatur illum esse officia quam reiciendis provident obcaecati. Ad voluptates alias soluta temporibus delectus a laudantium voluptate, dignissimos illum sit autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda tempora, dolores sapiente, quis rem praesentium distinctio animi nulla similique velit excepturi quos. Quibusdam doloremque ipsum provident, dolore architecto nobis quidem!</p>
-
-                </div>
+                </div> 
             </div>
+            
         </section>
 
+    <!-- Modal, para sección "quienes somos" -->
+    <section>
+        <div class="modal fade" id="avion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Permitenos organizar tu próximo viaje</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <img src="assets/img/card2.jpg" class="img-fluid my-3" alt="lago">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, numquam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, debitis accusamus optio facilis officiis minima enim ipsum at, cumque animi facere architecto repellat.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="cerro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Excursiones a la cordillera</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <img src="assets/img/card1.jpg" class="img-fluid my-3" alt="cordillera">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, numquam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, debitis accusamus optio facilis officiis minima enim ipsum at, cumque animi facere architecto repellat.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="donde" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Encuentranos en todo Chile</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <img src="assets/img/card4.jpg" class="img-fluid my-3" alt="selva">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, numquam!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, debitis accusamus optio facilis officiis minima enim ipsum at, cumque animi facere architecto repellat.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </section>
+
+        <!-- Sección destacados -->
         <section>
-            <!-- Sección destacados -->
-            <p id="Destacados" class="h1 text-light fw-bold mt-5">Destacados</p>
+            <p id="Destacados" class="h1 text-light text-center fw-bold mt-5">Destacados</p>
             <hr class="mb-4">
 
             <!-- cards -->
@@ -118,16 +186,17 @@
                     <div class="card bg-info text-light" style="">
                         <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body text-start">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title mb-4">Al sur del mundo</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae odio veritatis earum sapiente error beatae incidunt molestias ipsam itaqu</p>
                         </div>
                     </div>
+                
                 </div>
                 <div class="col-12 col-md-3 py-3">
                     <div class="card bg-info text-light" style="">
                         <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body text-start">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title mb-4">Lagos increibles</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'e odio veritatis earum sapiente error beatae incidunt molestias ipsam itaque magnam, nulla quisquam, dolorem cum officia officiis sunt exercitationem rem similique!</p>
                         </div>
                     </div>
@@ -136,7 +205,7 @@
                     <div class="card bg-info text-light" style="">
                         <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body text-start">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title mb-4">Desierto mágico</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'am itaque magnam, nulla quisquam, dolorem cum officia officiis sunt exercitationem rem similique!</p>
                         </div>
                     </div>
@@ -145,7 +214,7 @@
                     <div class="card bg-info text-light" style="">
                         <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="...">
                         <div class="card-body text-start">
-                        <h5 class="card-title">Card title</h5>
+                        <h5 class="card-title mb-4">Selva escondida</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'ssandae odio veritatis earum sapiente error beatae incidunt molestias ipsam itaque magnam, nulla quisquam, dolorem cum officia officiis sunt exercitationem rem similique!</p>
                         </div>
                     </div>
@@ -159,12 +228,12 @@
 
         <section>
             <!-- Sección contacto -->
-            <p id="contacto" class="h1 text-light fw-bold mt-5">Contacto</p>
+            <p id="contacto" class="h1 text-light text-center fw-bold mt-5">Contacto</p>
             <hr class="mb-4">
 
             <div class="container m-3">
                 <!-- Formulario Typeform -->
-            <div data-tf-widget="ADgN54HL" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+                <div data-tf-widget="ADgN54HL" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
             </div>
             
         </section>
