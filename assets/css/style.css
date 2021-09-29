@@ -11,6 +11,10 @@ p {
     font-weight: 400;
 }
 
+i {
+    text-decoration: none;
+}
+
 hr {
     height: 3px;
     background-color: rgb(19, 211, 236);
