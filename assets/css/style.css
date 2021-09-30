@@ -17,17 +17,22 @@ i {
 
 hr {
     height: 3px;
-    background-color: rgb(19, 211, 236);
+    background-color: rgb(8, 216, 243);
 }
 
 .icono img {
     width: 2rem;
 }
 
+.asistente img {
+    width: 1rem;
+}
+
+/*
 .card {
     height: 500px;
 }
-
+*/
 .card img {
     height: 130px;
 }

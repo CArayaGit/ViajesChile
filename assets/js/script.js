@@ -18,4 +18,28 @@ $(function(){
      return new bootstrap.Popover(popoverTriggerEl)
     })
 
+    var toastTrigger = document.getElementById('liveToastBtn')
+    var toastLiveExample = document.getElementById('liveToast')
+    if (toastTrigger) {
+    toastTrigger.addEventListener('click', function () {
+        var toast = new bootstrap.Toast(toastLiveExample)
+
+        toast.show()
+    })
+    }
+
 })
+
+function startTime(){
+    const hoy = new Date();
+    let h = hoy.getHours();
+    let m = hoy.getMinutes();
+    m = checkTime(m);
+    document.getElementById('hora').innerHTML = h + ':' + m;
+    setTimeout(startTime, 1000); 
+}
+
+function checkTime(i) {
+    if (i < 10) {i = '0' + i};
+    return i;
+}

@@ -9,20 +9,20 @@
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
     <!--Font Awesome-->
     <script src="https://kit.fontawesome.com/2572cac134.js" crossorigin="anonymous"></script>
     <!-- meta datos de autor -->
     <meta name="author" content="Cristobal Araya">
     <meta name="description" content="desafio Viajes Chile">
-    <meta name="keywords" content="chile, turismo, viajes, aventura">
+    <meta name="keywords" content="chile, turismo, viajes, montañismo, aventura">
 
     <title>Viajes Chile</title>
     <link rel="icon" type="image/svg" href="assets/img/viajes.svg">
 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
+<body onload="startTime()">
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-none fixed-top">           
         <div class="container-fluid">
@@ -72,8 +72,8 @@
         </button>
     </div>
 
+    <!-- sección quienes somos -->
     <div class="container">
-        <!-- sección quienes somos -->
         <section>
             <h1 id="Somos" class="text-light text-center fw-bold mt-5">¿Quienes somos?</h1>
             <hr class="mb-4">
@@ -170,60 +170,62 @@
             </div>
             </div>
         </div>
-
     </section>
 
-        <!-- Sección destacados -->
-        <section>
-            <p id="Destacados" class="h1 text-light text-center fw-bold mt-5">Destacados</p>
-            <hr class="mb-4">
+    <!-- Sección destacados -->
+    <section>
+        <p id="Destacados" class="h1 text-light text-center fw-bold mt-5">Destacados</p>
+        <hr class="mb-4">
 
-            <!-- cards -->
-            <div class="container">
+        <!-- cards -->
+        <div class="container">
 
-            <div class="row">
-                <div class="col-12 col-md-3 py-3">
-                    <div class="card bg-info text-light" style="">
-                        <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body text-start">
-                        <h5 class="card-title mb-4">Al sur del mundo</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae odio veritatis earum sapiente error beatae incidunt molestias ipsam itaqu</p>
-                        </div>
-                    </div>
-                
-                </div>
-                <div class="col-12 col-md-3 py-3">
-                    <div class="card bg-info text-light" style="">
-                        <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body text-start">
-                        <h5 class="card-title mb-4">Lagos increibles</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'e odio veritatis earum sapiente error beatae incidunt molestias ipsam itaque magnam, nulla quisquam, dolorem cum officia officiis sunt exercitationem rem similique!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 py-3">
-                    <div class="card bg-info text-light" style="">
-                        <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body text-start">
-                        <h5 class="card-title mb-4">Desierto mágico</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'am itaque magnam, nulla quisquam, dolorem cum officia officiis sunt exercitationem rem similique!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-3 py-3">
-                    <div class="card bg-info text-light" style="">
-                        <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="...">
-                        <div class="card-body text-start">
-                        <h5 class="card-title mb-4">Selva escondida</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card'ssandae odio veritatis earum sapiente error beatae incidunt molestias ipsam itaque magnam, nulla quisquam, dolorem cum officia officiis sunt exercitationem rem similique!</p>
-                        </div>
+        <div class="row">
+            <div class="col-12 col-md-3 py-3">
+                <div class="card bg-info text-light" style="">
+                    <img src="assets/img/card1.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-start">
+                    <h5 class="card-title mb-4">Al sur del mundo</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio est nobis excepturi praesentium eum? Expedita sunt, tempora aperiam quas vero asperiores sequi voluptatum, consectetur soluta sit ea odio! Officia minus iusto eos culpa repellendus odit nobis adipisci quaerat sit officiis.</p>
                     </div>
                 </div>
                 
             </div>
 
+            <div class="col-12 col-md-3 py-3">
+                <div class="card bg-info text-light" style="">
+                    <img src="assets/img/card2.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-start">
+                    <h5 class="card-title mb-4">Lagos increibles</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus dicta dolore excepturi corrupti maxime, consequatur recusandae alias, aliquid consectetur nam velit adipisci soluta iusto perspiciatis cupiditate aut obcaecati debitis minima suscipit vel harum laboriosam pariatur ab? Quo, modi.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 py-3">
+                <div class="card bg-info text-light" style="">
+                    <img src="assets/img/card3.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-start">
+                    <h5 class="card-title mb-4">Desierto mágico</h5>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt aliquid eos rem tempore quasi. Quibusdam placeat fugit quasi. Molestias sequi ea nihil tempore eius, explicabo vel error fugiat architecto velit quam fuga amet illum inventore commodi expedita tempora quod? Fugiat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 py-3">
+                <div class="card bg-info text-light" style="">
+                    <img src="assets/img/card4.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="card-body text-start">
+                    <h5 class="card-title mb-4">Selva escondida</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem ab ipsum ex iste vero temporibus repellendus ipsam atque neque voluptatem nam repudiandae ipsa iusto, quos ratione. A mollitia sed cupiditate eveniet sunt maiores delectus itaque quidem accusantium corrupti. Inventore, mollitia.</p>
+                    </div>
+                </div>
+            </div>
+                
         </div>
-            
+
+        </div>
+    
         </section>
 
         <section>
@@ -240,13 +242,25 @@
 
     </div>
     
-
     <footer class="bg-info text-center text-light p-2">
         <div class="row">
             <div class="col-md-2">
             </div>
             <div class="col-md-2">
-                <p class="fw-bold mt-3">VIAJES CHILE</p>
+                <button type="button" class="btn btn-info text-light fw-bold mt-2" id="liveToastBtn">VIAJES CHILE</button>
+                <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header asistente">
+                    <img src="assets/img/viajes.svg" class="rounded me-2" alt="...">
+                    <strong class="me-auto">Asistente Viajes Chile</strong>
+                    <div id="hora"></div>
+                    <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body bg-dark text-start">
+                    Hola, soy tu asistente virtual!. ¿Tienes alguna duda?.
+                    </div>
+                </div>
+                </div>
             </div>
             <div class="col-md-2">
             </div>
