@@ -13,13 +13,6 @@ $(function(){
         }
     });
 
-    $(window).scroll(function () {
-        if ($("#navbar").offset().top > 56) {
-            $("#navbar").addClass("navbar-color");
-        } else {
-            $("#navbar").removeClass("navbar-color");
-        }
-    });
 
     var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
     var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
@@ -38,6 +31,15 @@ $(function(){
 
 
 })
+
+//transición bg color navbar
+$(window).scroll(function () {
+    if ($("#navbar").offset().top > 56) {
+        $("#navbar").addClass("navbar-color");
+    } else {
+        $("#navbar").removeClass("navbar-color");
+    }
+});
 
 //Para reloj en popup asistente virtual:
 function startTime(){
