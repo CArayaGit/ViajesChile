@@ -23,7 +23,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body onload="startTime()">
+<body>
+    <!-- onload="startTime()" -->
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-none fixed-top" id="navbar">           
         <div class="container-fluid">
@@ -223,7 +224,7 @@
                               </h2>
                               <div id="collapseThree2" class="accordion-collapse collapse bg-info" aria-labelledby="headingThree2" data-bs-parent="#accordionExample2">
                                 <div class="accordion-body">
-                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions.
+                                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.
                                 </div>
                               </div>
                             </div>
@@ -306,7 +307,7 @@
         <div class="row">
             <div class="col-md-2"></div>
             <div class="col-md-2">
-                <button type="button" class="btn btn-info text-light fw-bold mt-2" id="liveToastBtn">ASISTENTE VIAJES CHILE</button>
+                <button type="button" class="btn btn-info text-light fw-bold mt-2" id="liveToastBtn" onclick="startTime()">ASISTENTE VIAJES CHILE</button>
                 <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
                 <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                     <div class="toast-header asistente">
