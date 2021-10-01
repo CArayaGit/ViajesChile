@@ -1,5 +1,5 @@
 $(function(){
-    $("a").click(function(event){
+    $(".navbar a").click(function(event){
         if (this.has !== "") {
             event.preventDefault();
 
@@ -10,6 +10,14 @@ $(function(){
             }, 800, function(){
                 window.location.hash = gato;
             });
+        }
+    });
+
+    $(window).scroll(function () {
+        if ($("#navbar").offset().top > 56) {
+            $("#navbar").addClass("navbar-color");
+        } else {
+            $("#navbar").removeClass("navbar-color");
         }
     });
 
@@ -28,8 +36,10 @@ $(function(){
     })
     }
 
+
 })
 
+//Para reloj en popup asistente virtual:
 function startTime(){
     const hoy = new Date();
     let h = hoy.getHours();
